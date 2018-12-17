@@ -12,6 +12,7 @@ export class AppComponent implements OnInit{
   title = 'Angular 7';
   config: {};
   key: any;
+  httpHeaders: {};
   loginJson: Login;
   constructor(private http: HttpClient, private Data: DataService) { }
   ngOnInit(){
