@@ -31,9 +31,9 @@ export class AppComponent implements OnInit{
        console.log("Responce:", this.key);
         
       },(error)=>{
-        if(error.status == 0){
+        
           alert("something went wrong");
-        }
+        
       })
   }
 
