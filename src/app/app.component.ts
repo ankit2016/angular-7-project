@@ -32,7 +32,7 @@ export class AppComponent implements OnInit{
         
       },(error)=>{
         
-          alert("something went wrong");
+          alert("something went wrong"); 
         
       })
   }
